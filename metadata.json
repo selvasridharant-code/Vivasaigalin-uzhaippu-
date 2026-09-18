@@ -1,0 +1,6 @@
+{
+  "name": "Vivasaigalin uzhaippu",
+  "description": "Vivasaigalin uzhaippu (விவசாயிகளின் உழைப்பு) - Agri-input purchase and field schedule tracker for farmers with integrated GPay and UPI payments, authentic Tamil product names, less-cost benchmarks, and monthly expense reports in Indian Rupees (₹).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

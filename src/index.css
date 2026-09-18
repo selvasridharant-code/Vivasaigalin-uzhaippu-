@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Mukta Malar', 'Noto Sans Tamil', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0b3d20;
+    color: #1c1917;
+  }
+}
+
+.font-tamil {
+  font-family: 'Mukta Malar', 'Noto Sans Tamil', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Authentic farm background glow and grid */
+.bg-farm-emerald {
+  background: radial-gradient(circle at 50% 0%, #17532d 0%, #0e3a1f 60%, #082915 100%);
+}
+
+.bg-farm-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px -2px rgba(11, 61, 32, 0.08), 0 2px 6px -1px rgba(11, 61, 32, 0.04);
+}
+
+/* Subtle animation helpers */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.92; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
+}
